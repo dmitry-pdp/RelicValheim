@@ -1,0 +1,14 @@
+{
+    "name": "rune_invigorate",
+    "clone": false,
+    "clonePrefabName": "",
+    "craftingStation": "Thors Forge",
+    "minStationLevel": 1,
+    "amount": 1,
+    "disabled": false,
+    "reqs": [
+        "elder_drop:1:0:False",
+        "EssenceRare:5:1:False",
+        "MushroomYellow:5:5:False"
+    ]
+}

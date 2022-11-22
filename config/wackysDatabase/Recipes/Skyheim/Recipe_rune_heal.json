@@ -1,0 +1,14 @@
+{
+    "name": "rune_heal",
+    "clone": false,
+    "clonePrefabName": "",
+    "craftingStation": "Thors Forge",
+    "minStationLevel": 1,
+    "amount": 1,
+    "disabled": false,
+    "reqs": [
+        "HardAntler:1:1:False",
+        "EssenceMagic:5:1:False",
+        "Honey:5:5:False"
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "name": "rune_travel",
+    "clone": false,
+    "clonePrefabName": "",
+    "craftingStation": "Inscription Table",
+    "minStationLevel": 1,
+    "amount": 1,
+    "disabled": true,
+    "reqs": [
+        "bonemass_drop:1:1:False",
+        "AmberPearl:4:2:False"
+    ]
+}

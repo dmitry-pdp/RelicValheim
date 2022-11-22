@@ -1,0 +1,15 @@
+{
+    "name": "bearchest",
+    "clone": false,
+    "clonePrefabName": "",
+    "craftingStation": "Inscription Table",
+    "minStationLevel": 1,
+    "amount": 1,
+    "disabled": false,
+    "reqs": [
+        "HeavymetalBar:20:5:True",
+        "ArachnidSilk_TW:10:5:True",
+		"SvartalfrFabric_TW:10:5:True",
+        "SvartalfrEye_TW:5:2:True"
+    ]
+}

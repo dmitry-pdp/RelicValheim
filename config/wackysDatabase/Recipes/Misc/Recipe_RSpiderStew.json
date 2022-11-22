@@ -1,0 +1,15 @@
+{
+    "name": "RSpiderStew",
+    "clone": true,
+    "clonePrefabName": "SpiderStew",
+    "craftingStation": "$piece_cauldron",
+    "minStationLevel": 4,
+    "amount": 1,
+    "disabled": false,
+    "reqs": [
+        "Honey:2:0:True",
+        "Bloodbag:3:0:True",
+		"ArachnidOoze_TW:5:0:True",
+		"MushroomBlue:10:0:True"
+    ]
+}

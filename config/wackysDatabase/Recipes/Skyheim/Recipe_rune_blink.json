@@ -1,0 +1,14 @@
+{
+    "name": "rune_blink",
+    "clone": false,
+    "clonePrefabName": "",
+    "craftingStation": "Thors Forge",
+    "minStationLevel": 1,
+    "amount": 1,
+    "disabled": false,
+    "reqs": [
+        "bonemass_drop:1:1:False",
+		"EssenceEpic:5:1:False",
+        "SurtlingCore:4:1:False"
+    ]
+}

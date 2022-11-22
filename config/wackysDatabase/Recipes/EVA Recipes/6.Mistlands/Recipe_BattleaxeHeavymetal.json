@@ -1,0 +1,15 @@
+{
+    "name": "BattleaxeHeavymetal",
+    "clone": false,
+    "clonePrefabName": "",
+    "craftingStation": "Inscription Table",
+    "minStationLevel": 1,
+    "amount": 1,
+    "disabled": false,
+    "reqs": [
+        "HeavymetalBar:16:6:False",
+        "WorldTreeFragment:30:7:False",
+        "VenomousFang_TW:12:6:False",
+		"SvartalfrArtifact_TW:5:2:False"
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "name": "SpearHeavymetal",
+    "clone": false,
+    "clonePrefabName": "",
+    "craftingStation": "Inscription Table",
+    "minStationLevel": 1,
+    "amount": 1,
+    "disabled": false,
+    "reqs": [
+        "HeavymetalBar:8:3:False",
+        "WorldTreeFragment:16:4:False",
+        "VenomousFang_TW:6:3:False",
+		"FreyjaEssence_TW:5:5:False"
+    ]
+}

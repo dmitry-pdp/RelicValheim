@@ -1,0 +1,5 @@
+# Example yaml file. Feel free to customize this. Everything that is not defined in this file will use the configuration file instead.
+# Find some detailed documentation at the bottom of this file.
+
+# Define your own groups here and assign creatures to your groups. There are default groups for all biomes, which do not have to be created by you, unless you want to assign different creatures to it.
+# Special groups: all, creature, boss

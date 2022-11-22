@@ -1,0 +1,21 @@
+{
+    "name": "YmirForge_TW",
+    "m_name": "$piece_YmirForge_TW",
+    "m_description": "$piece_YmirForge_TW_description",
+    "clone": false,
+    "clonePrefabName": "",
+    "cloneMaterial": "",
+    "craftingStation": "$piece_forge",
+    "piecehammer": "Hammer",
+    "piecehammerCategory": "Crafting",
+    "minStationLevel": 1,
+    "amount": 1,
+    "disabled": false,
+    "adminonly": false,
+    "reqs": [
+        "FrometalBar:15:0:True",
+        "PrimordialIce:10:0:True",
+        "GlacierCrystal_TW:5:0:True",
+        "QueenJewel_TW:1:0:True"
+    ]
+}

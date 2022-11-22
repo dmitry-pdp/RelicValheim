@@ -1,0 +1,10 @@
+{
+    "name": "ClaymoreJotunn_TW",
+    "clone": false,
+    "clonePrefabName": "",
+    "craftingStation": "Thors Forge",
+    "minStationLevel": 10,
+    "amount": 1,
+    "disabled": true,
+    "reqs": []
+}

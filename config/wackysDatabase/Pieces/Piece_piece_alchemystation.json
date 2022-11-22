@@ -1,0 +1,21 @@
+{
+    "name": "piece_alchemystation",
+    "m_name": "Dark Forge",
+    "m_description": "A table for crafting Heavymetal weapons and armor.",
+    "clone": false,
+    "clonePrefabName": "",
+    "cloneMaterial": "",
+    "craftingStation": "$piece_workbench",
+    "piecehammer": "Hammer",
+    "piecehammerCategory": "Crafting",
+    "minStationLevel": 1,
+    "amount": 1,
+    "disabled": false,
+    "adminonly": false,
+    "reqs": [
+        "YagluthDrop:1:0:True",
+        "BlackMetal:20:0:True",
+        "WorldTreeFragment:10:0:True",
+        "OreHeavymetal:10:0:True"
+    ]
+}

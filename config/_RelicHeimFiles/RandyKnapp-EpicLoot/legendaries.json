@@ -1,0 +1,835 @@
+{
+
+  "LegendaryItems": [
+
+    {
+      "ID": "Halone",
+      "Name": "<color=Red>Halone</color>",
+      "Description": "Halone, the Fury",
+      "IsSetItem": true, 
+      "Requirements": {
+        "AllowedItemTypes": [ "OneHandedWeapon" ],
+        "AllowedSkillTypes": [ "Swords" ]
+      }, 
+	  "GuaranteedEffectCount": 5,
+      "GuaranteedMagicEffects": [
+        { "Type": "ModifyDamage", "Values": { "MinValue": 20, "MaxValue": 25, "Increment": 1 } }
+      ]
+    },
+    {
+      "ID": "Menphina",
+      "Name": "<color=Red>Menphina</color>",
+      "Description": "Menphina, the Lover",
+      "IsSetItem": true, 
+      "Requirements": {
+        "AllowedItemTypes": [ "OneHandedWeapon" ],
+        "AllowedSkillTypes": [ "Clubs" ]
+      }, 
+	  "GuaranteedEffectCount": 5,
+      "GuaranteedMagicEffects": [
+        { "Type": "ModifyMovementSpeed", "Values": { "MinValue": 20, "MaxValue": 25, "Increment": 1 } }
+      ]
+    },
+    {
+      "ID": "Thaliak",
+      "Name": "<color=Red>Thaliak</color>",
+      "Description": "Thaliak, the Scholar",
+      "IsSetItem": true, 
+      "Requirements": {
+        "AllowedItemTypes": [ "OneHandedWeapon" ],
+        "AllowedSkillTypes": [ "Spears", "Knives" ]
+      }, 
+	  "GuaranteedEffectCount": 5,
+      "GuaranteedMagicEffects": [
+        { "Type": "ModifyAttackSpeed", "Values": { "MinValue": 20, "MaxValue": 25, "Increment": 1 } }
+      ]
+    },
+    {
+      "ID": "Nymeia",
+      "Name": "<color=Red>Nymeia</color>",
+      "Description": "Nymeia, the Spinner",
+      "IsSetItem": true, 
+      "Requirements" : {
+        "AllowedItemTypes": [ "OneHandedWeapon" ],
+        "AllowedSkillTypes": [ "Axes" ]
+      }, 
+	  "GuaranteedEffectCount": 5,
+      "GuaranteedMagicEffects": [
+        { "Type": "Throwable" },
+        { "Type": "RecallWeapon" },
+        { "Type": "Opportunist", "Values": { "MinValue" : 10, "MaxValue" : 15, "Increment" : 1 } },
+        { "Type": "ModifyBackstab", "Values": { "MinValue" : 10, "MaxValue" : 15, "Increment" : 1 } }
+      ]
+    },
+    {
+      "ID": "Llymlaen",
+      "Name": "<color=Red>Llymlaen</color>",
+      "Description": "Llymlaen, the Navigator",
+      "IsSetItem": true, 
+      "Requirements" : {
+        "AllowedItemTypes": [ "OneHandedWeapon" ],
+        "AllowedSkillTypes": [ "Swords", "Knives" ]
+      }, 
+	  "GuaranteedEffectCount": 5, 
+      "GuaranteedMagicEffects": [
+        { "Type": "ModifyDamage", "Values": { "MinValue": 20, "MaxValue": 25, "Increment": 1 } },
+		{ "Type": "Executioner", "Values": { "MinValue" : 200, "MaxValue" : 200, "Increment" : 10 } }
+      ]
+    },
+    {
+      "ID": "Oschon",
+      "Name": "<color=Red>Oschon</color>",
+      "Description": "Oschon, the Wanderer",
+      "IsSetItem": true, 
+      "Requirements" : {
+        "AllowedItemTypes": [ "OneHandedWeapon" ],
+        "AllowedSkillTypes": [ "Swords" ]
+      }, 
+	  "GuaranteedEffectCount": 5, 
+      "GuaranteedMagicEffects": [
+        { "Type": "RemoveSpeedPenalty" },
+        { "Type": "Opportunist", "Values": { "MinValue" : 10, "MaxValue" : 15, "Increment" : 1 } },
+        { "Type": "ModifyBackstab", "Values": { "MinValue" : 10, "MaxValue" : 15, "Increment" : 1 } }
+      ]
+    },
+    {
+      "ID": "Byregot",
+      "Name": "<color=Red>Byregot</color>",
+      "Description": "Byregot, the Builder",
+      "IsSetItem": true, 
+      "Requirements" : {
+        "AllowedItemTypes": [ "OneHandedWeapon" ],
+        "AllowedSkillTypes": [ "Knives" ]
+      }, 
+	  "GuaranteedEffectCount": 5, 
+      "GuaranteedMagicEffects": [
+        { "Type": "ModifyMovementSpeed", "Values": { "MinValue": 20, "MaxValue": 25, "Increment": 1 } },
+        { "Type": "ModifyAttackSpeed", "Values": { "MinValue": 20, "MaxValue": 25, "Increment": 1 } }
+      ]
+    },
+    {
+      "ID": "Rhalgr",
+      "Name": "<color=Red>Rhalgr</color>",
+      "Description": "Rhalgr, the Destroyer",
+      "IsSetItem": true, 
+      "Requirements" : {
+        "AllowedItemTypes": [ "TwoHandedWeapon" ],
+        "AllowedSkillTypes": [ "Axes" ]
+      }, 
+	  "GuaranteedEffectCount": 5, 
+      "GuaranteedMagicEffects": [
+        { "Type": "ModifyMovementSpeedLowHealth", "Values": { "MinValue" : 25, "MaxValue" : 25, "Increment" : 1 } },
+        { "Type": "ModifyStaminaRegenLowHealth", "Values": { "MinValue" : 50, "MaxValue" : 50, "Increment" : 1 } },
+        { "Type": "ModifyDamageLowHealth", "Values": { "MinValue" : 100, "MaxValue" : 100, "Increment" : 1 } },
+        { "Type": "ModifyAttackSpeedLowHealth", "Values": { "MinValue" : 100, "MaxValue" : 100, "Increment" : 1 } },
+        { "Type": "AvoidDamageTakenLowHealth", "Values": { "MinValue" : 20, "MaxValue" : 20, "Increment" : 1 } }
+      ]
+    },
+    {
+      "ID": "Azeyma",
+      "Name": "<color=Red>Azeyma</color>",
+      "Description": "Azeyma, the Warden",
+      "IsSetItem": true, 
+      "Requirements" : {
+        "AllowedItemTypes": [ "OneHandedWeapon" ],
+        "AllowedSkillTypes": [ "Swords" ]
+      }, 
+	  "GuaranteedEffectCount": 5, 
+      "GuaranteedMagicEffects": [
+        { "Type": "ModifyAttackStaminaUse", "Values": { "MinValue" : 20, "MaxValue" : 25, "Increment" : 1 } },
+        { "Type": "ModifyAttackSpeed", "Values": { "MinValue" : 20, "MaxValue" : 25, "Increment" : 1 } },
+        { "Type": "Indestructible" }
+      ]
+    },
+    {
+      "ID": "Nald'thal",
+      "Name": "<color=Red>Nald'thal</color>",
+      "Description": "Nald'thal, the Traders",
+      "IsSetItem": true, 
+      "Requirements" : {
+        "AllowedItemTypes": [ "OneHandedWeapon" ],
+        "AllowedSkillTypes": [ "Spears" ]
+      }, 
+	  "GuaranteedEffectCount": 5, 
+      "GuaranteedMagicEffects": [
+        { "Type": "ModifyAttackStaminaUse", "Values": { "MinValue" : 20, "MaxValue" : 25, "Increment" : 1 } },
+        { "Type": "LifeSteal", "Values": { "MinValue" : 20, "MaxValue" : 25, "Increment" : 1 } },
+        { "Type": "Indestructible" }
+      ]
+    },
+    {
+      "ID": "Nophica",
+      "Name": "<color=Red>Nophica</color>",
+      "Description": "Nophica, the Matron",
+      "IsSetItem": true, 
+      "Requirements" : {
+        "AllowedItemTypes": [ "OneHandedWeapon" ],
+        "AllowedSkillTypes": [ "Clubs" ]
+      }, 
+	  "GuaranteedEffectCount": 5,
+      "GuaranteedMagicEffects": [
+        { "Type": "ModifyDamage", "Values": { "MinValue": 20, "MaxValue": 25, "Increment": 1 } },
+        { "Type": "ModifyAttackSpeed", "Values": { "MinValue" : 20, "MaxValue" : 25, "Increment" : 1 } }
+      ]
+    },
+    {
+      "ID": "Althyk",
+      "Name": "<color=Red>Althyk</color>",
+	  "Description": "Althyk the Keeper",
+      "IsSetItem": true, 
+      "Requirements" : {
+        "AllowedItemTypes": [ "OneHandedWeapon" ],
+        "AllowedSkillTypes": [ "Clubs" ]
+      }, 
+	  "GuaranteedEffectCount": 5,
+      "GuaranteedMagicEffects": [
+        { "Type": "ModifyDamage", "Values": { "MinValue": 20, "MaxValue": 25, "Increment": 1 } },
+        { "Type": "Lifesteal", "Values": { "MinValue" : 20, "MaxValue" : 25, "Increment" : 1 } },
+		{ "Type": "ModifyStaminaRegenLowHealthLowHealth", "Values": { "MinValue" : 50, "MaxValue" : 50, "Increment" : 1 } }
+      ]
+    },
+    {
+      "ID": "Hydaelyn",
+      "Name": "<color=Red>Hydaelyn</color>",
+      "IsSetItem": true, 
+      "Requirements" : {
+        "AllowedItemTypes": [ "TwoHandedWeapon" ],
+        "AllowedSkillTypes": [ "Polearms", "Axes" ]
+      }, 
+	  "GuaranteedEffectCount": 5, 
+      "GuaranteedMagicEffects": [
+        { "Type": "ModifyDamage", "Values": { "MinValue" : 20, "MaxValue" : 25, "Increment" : 1 } },
+        { "Type": "ModifyAttackSpeed", "Values": { "MinValue" : 20, "MaxValue" : 25, "Increment" : 1 } },
+        { "Type": "ModifyAttackStaminaUse", "Values": { "MinValue" : 20, "MaxValue" : 25, "Increment" : 1 } }
+      ]
+    },
+    {
+      "ID": "Zodiark",
+      "Name": "<color=Red>Zodiark</color>",
+      "IsSetItem": true, 
+      "Requirements" : {
+        "AllowedItemTypes": [ "Bow" ],
+        "AllowedSkillTypes": [ "Bows" ]
+      }, 
+	  "GuaranteedEffectCount": 5, 
+      "GuaranteedMagicEffects": [
+        { "Type": "ModifyMovementSpeed", "Values": { "MinValue" : 20, "MaxValue" : 25, "Increment" : 1 } },
+        { "Type": "RemoveSpeedPenalty" }
+      ]
+    },
+    {
+      "ID": "Terpsichore",
+      "Name": "<color=Red>Terpsichore</color>",
+      "Description": "A set of claws named after an ancient goddess of dance",
+      "IsSetItem": true, 
+      "Requirements" : {
+        "AllowedItemTypes": [ "TwoHandedWeapon" ],
+        "AllowedSkillTypes": [ "Unarmed" ]
+      }, 
+	  "GuaranteedEffectCount": 5, 
+      "GuaranteedMagicEffects": [
+        { "Type": "ModifyAttackSpeed", "Values": { "MinValue" : 20, "MaxValue" : 25, "Increment" : 1 } },
+        { "Type": "Duelist", "Values": { "MinValue" : 20, "MaxValue" : 25, "Increment" : 1 } }
+      ]
+    },
+    {
+      "ID": "Baghnakhs",
+      "Name": "<color=Red>Baghnakhs</color>",
+      "Description": "Anything that touches these claws are stopped in its place.",
+      "IsSetItem": true, 
+      "Requirements" : {
+        "AllowedItemTypes": [ "TwoHandedWeapon" ],
+        "AllowedSkillTypes": [ "Unarmed" ]
+      }, 
+	  "GuaranteedEffectCount": 5, 
+      "GuaranteedMagicEffects": [
+        { "Type": "Slow", "Values": { "MinValue" : 20, "MaxValue" : 25, "Increment" : 1 } },
+        { "Type": "Executioner", "Values": { "MinValue" : 150, "MaxValue" : 200, "Increment" : 1 } }
+      ]
+    },
+    {
+      "ID": "UllrBow",
+      "Name": "<color=Red>$mod_epicloot_l_ullr</color>",
+      "Description": "$mod_epicloot_l_ullr_desc",
+      "IsSetItem": true, 
+      "Requirements" : {
+        "AllowedItemTypes": [ "Bow" ],
+        "AllowedSkillTypes": [ "Bows" ]
+      }, 
+	  "GuaranteedEffectCount": 5, 
+      "GuaranteedMagicEffects": [
+        { "Type": "ExplosiveArrows", "Values": { "MinValue" : 20, "MaxValue" : 25, "Increment" : 1 } },
+        { "Type": "Indestructible" }
+      ]
+    },
+    {
+      "ID": "EndlessBow",
+      "Name": "<color=Red>$mod_epicloot_l_endbow</color>",
+      "Description": "$mod_epicloot_l_endbow_desc",
+      "IsSetItem": true, 
+      "Requirements" : {
+        "AllowedItemTypes": [ "Bow" ],
+        "AllowedSkillTypes": [ "Bows" ]
+      }, 
+	  "GuaranteedEffectCount": 5, 
+      "GuaranteedMagicEffects": [
+        { "Type": "QuickDraw", "Values": { "MinValue" : 25, "MaxValue" : 25, "Increment" : 1 } },
+        { "Type": "ModifyAttackStaminaUse", "Values": { "MinValue" : 20, "MaxValue" : 25, "Increment" : 1 } },
+        { "Type": "Indestructible" }
+      ]
+    },
+	{
+      "ID": "OffensiveRune",
+      "Name": "<color=Red>Return to Sender</color>",
+      "Description": "",
+	  "IsSetItem": true,
+      "Requirements": {
+		  "AllowedItemTypes": [ "OneHandedWeapon" ],
+		  "ExcludedSkillTypes": [
+			  "Swords",
+			  "Axes",
+			  "Knives",
+			  "Clubs",
+			  "Spears"
+			],
+			"ItemHasPhysicalDamage" : true
+		  }, 
+	  "GuaranteedEffectCount": 5,
+      "GuaranteedMagicEffects": [
+		{ "Type": "QuickLearner", "Values": { "MinValue" : 10, "MaxValue" : 50, "Increment" : 1 } },
+		{ "Type": "ReflectDamage", "Values": { "MinValue" : 10, "MaxValue" : 10, "Increment" : 1 } },
+		{ "Type": "ModifyMovementSpeed", "Values": { "MinValue" : 20, "MaxValue" : 25, "Increment" : 1 } }
+      ]
+    },
+	
+	
+	
+	{
+      "ID": "UtilityRune",
+      "Name": "<color=Red>Unending Rune</color>",
+      "Description": "",
+	  "IsSetItem": true,
+      "Requirements": {
+		  "AllowedItemTypes": [ "OneHandedWeapon" ],
+		  "ExcludedSkillTypes": [
+			  "Swords",
+			  "Axes",
+			  "Knives",
+			  "Clubs",
+			  "Spears"
+			],
+			"ItemHasPhysicalDamage" : false
+		  },
+		"GuaranteedEffectCount": 5,
+      "GuaranteedMagicEffects": [
+		{ "Type": "QuickLearner", "Values": { "MinValue" : 10, "MaxValue" : 50, "Increment" : 1 } },
+		{ "Type": "ModifyMovementSpeed", "Values": { "MinValue" : 20, "MaxValue" : 25, "Increment" : 1 } },
+        { "Type": "Indestructible" }
+      ] 
+    },	
+	
+	
+	
+
+    //////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    // Legendary Set Items
+    //////////////////////////////////////////////////////////////////////////////////////////////////////////////
+	
+	
+	
+	
+
+    // Odins
+    //////////////////////////////////////////////////////////////////////////////////////////////////////////////
+	
+	
+	
+	
+    {
+      "ID": "OdinsShield",
+      "Name": "<color=Cyan>Odins Sturdy Shield</color>",
+      "Description": "Odins Shield",
+      "IsSetItem": true, 
+      "Requirements": {
+        "AllowedItemTypes": [
+          "Shield"
+        ]
+      },  
+	  "GuaranteedEffectCount": 6
+    },
+    {
+      "ID": "OdinsWeapon",
+      "Name": "<color=Cyan>Odins Durable Weapon</color>",
+      "Description": "Odins Sword",
+      "IsSetItem": true,
+      "Requirements": {
+        "AllowedItemTypes": [ "OneHandedWeapon" ],
+        "AllowedSkillTypes": [ "Swords", "Spears" ]
+      }, 
+	  "GuaranteedEffectCount": 6
+    },
+    {
+      "ID": "OdinsLegs",
+      "Name": "<color=Cyan>Odins Dense Legs</color>",
+      "Description": "Odins Legs",
+      "IsSetItem": true, 
+      "Requirements": {
+        "AllowedItemTypes": [
+          "Legs"
+        ]
+      }, 
+	  "GuaranteedEffectCount": 6
+    },
+	
+	
+	
+	
+	
+	// Tsukyomi
+    //////////////////////////////////////////////////////////////////////////////////////////////////////////////
+	
+	
+	
+	
+	{
+      "ID": "TsukuyomisWeapon",
+      "Name": "<color=Cyan>Tsukuyomis Trusty Weapon</color>",
+      "Description": "Thin, almost invisible.",
+      "IsSetItem": true, 
+      "Requirements": {
+        "AllowedItemTypes": [ "OneHandedWeapon" ],
+        "AllowedSkillTypes": [ "Knives", "Swords" ]
+      }, 
+	  "GuaranteedEffectCount": 6
+    },
+	{
+      "ID": "TsukuyomisHelmet",
+      "Name": "<color=Cyan>Tsukuyomis Devious Helmet</color>",
+      "Description": "Two sharp horns stick out.",
+      "IsSetItem": true, 
+      "Requirements": {
+        "AllowedItemTypes": [
+          "Helmet"
+        ]
+      }, 
+	  "GuaranteedEffectCount": 6
+    },
+    {
+      "ID": "TsukuyomisRing",
+      "Name": "<color=Cyan>Tsukuyomis Lucky Ring</color>",
+      "Description": "Luck out of this world.",
+      "IsSetItem": true, 
+      "Requirements": {
+        "AllowedItemNames" : [
+          "$mod_epicloot_assets_silverring"
+        ]
+	  }, 
+	  "GuaranteedEffectCount": 6
+    },
+	
+	
+	
+	
+
+	// Susano
+    //////////////////////////////////////////////////////////////////////////////////////////////////////////////
+	
+	
+	
+	
+    {
+      "ID": "SusanosCape",
+      "Name": "<color=Cyan>Susano Mighty Cape</color>",
+      "Description": "Faint sparks can be seen at night.",
+      "IsSetItem": true, 
+      "Requirements": {
+        "AllowedItemTypes": [
+          "Shoulder"
+        ]
+      }, 
+	  "GuaranteedEffectCount": 6
+    },
+	{
+      "ID": "SusanosHelm",
+      "Name": "<color=Cyan>Susano Mighty Helm</color>",
+      "Description": "Shiniest Helmet",
+      "IsSetItem": true, 
+      "Requirements": {
+        "AllowedItemTypes": [
+          "Helmet"
+        ]
+      }, 
+	  "GuaranteedEffectCount": 6
+    },
+	{
+      "ID": "SusanosWeapon",
+      "Name": "<color=Cyan>Susano Mighty Weapon</color>",
+      "Description": "Not for mere mortals.",
+	  "IsSetItem": true, 
+      "EquipFx": "LightningAuraSledge",
+      "EquipFxMode": "EquipRoot", 
+      "Requirements": {
+        "AllowedItemTypes": [ "OneHandedWeapon", "TwoHandedWeapon" ],
+	    "AllowedSkillTypes": [ "Clubs", "Axes", "Polearms" ],
+		"ExcludedItemNames": [ "$item_axe_stone", "$item_axe_flint", "$item_axe_bronze", "$item_axe_iron" ]
+		}, 
+	  "GuaranteedEffectCount": 6
+    },
+	
+	
+	
+
+	// Bear
+    //////////////////////////////////////////////////////////////////////////////////////////////////////////////
+	
+	
+	
+	
+    {
+      "ID": "BearCape",
+      "Name": "<color=Cyan>Mysterious Bear Hide</color>",
+      "Description": "Fashioned into a crude but reliable cape.",
+      "IsSetItem": true, 
+      "Requirements": {
+        "AllowedItemTypes": [
+          "Shoulder"
+        ],
+        "ItemHasNoParryBonus": true
+      }, 
+	  "GuaranteedEffectCount": 6
+    },
+    {
+      "ID": "BearChest",
+      "Name": "<color=Cyan>Mysterious Bear Torso</color>",
+      "Description": "Hollow from within.",
+      "IsSetItem": true, 
+      "Requirements": {
+        "AllowedItemTypes": [
+          "Chest"
+        ]
+	  },  
+	  "GuaranteedEffectCount": 6
+    },
+    {
+      "ID": "BearLegs",
+      "Name": "<color=Cyan>Mysterious Bear Leggings</color>",
+      "Description": "Definitely warmest in all the realm.",
+      "IsSetItem": true, 
+      "Requirements": {
+        "AllowedItemTypes": [
+          "Legs"
+        ]
+      },  
+	  "GuaranteedEffectCount": 6
+    },
+	
+	
+	
+
+	// Gladiator
+    //////////////////////////////////////////////////////////////////////////////////////////////////////////////
+	
+	
+	
+	
+    {
+      "ID": "GladiatorTowerShield",
+      "Name": "<color=Cyan>Gladiator's Trusty Shield</color>",
+      "Description": "Used in countless battles.",
+      "IsSetItem": true, 
+      "Requirements": {
+        "AllowedItemTypes": [
+          "Shield"
+        ]
+      },  
+	  "GuaranteedEffectCount": 6
+    },
+    {
+      "ID": "GladiatorHelm",
+      "Name": "<color=Cyan>Gladiator's Trusty Helmet</color>",
+      "Description": "Used in countless battles.",
+      "IsSetItem": true, 
+      "Requirements": {
+        "AllowedItemTypes": [
+          "Helmet"
+        ]
+      },  
+	  "GuaranteedEffectCount": 6
+    },
+    {
+      "ID": "GladiatorWeapon",
+      "Name": "<color=Cyan>Gladiator's Trusty Weapon</color>",
+      "Description": "Used in countless battles.",
+      "IsSetItem": true, 
+      "Requirements": {
+        "AllowedItemTypes": [ "OneHandedWeapon" ],
+        "AllowedSkillTypes": [ "Swords", "Knives", "Clubs", "Spears" ]
+      },  
+	  "GuaranteedEffectCount": 6
+    },
+
+
+
+
+	// Nomad
+    //////////////////////////////////////////////////////////////////////////////////////////////////////////////
+	
+	
+	
+	
+    {
+      "ID": "NomadCape",
+      "Name": "<color=Cyan>Nomad's Cowl</color>",
+      "Description": "A cloak that floats freely in the wind.",
+      "IsSetItem": true, 
+      "Requirements": {
+        "AllowedItemTypes": [
+          "Shoulder"
+        ]
+      },  
+	  "GuaranteedEffectCount": 6
+    },
+	{
+      "ID": "NomadBelt",
+      "Name": "<color=Cyan>Nomad's Belt</color>",
+      "Description": "As simple as can be.",
+      "IsSetItem": true, 
+      "Requirements": {
+        "AllowedItemNames" : [
+          "$mod_epicloot_assets_leatherbelt"
+        ]
+	  },  
+	  "GuaranteedEffectCount": 6
+    },
+    {
+      "ID": "NomadChest",
+      "Name": "<color=Cyan>Nomad's Tunic</color>",
+      "Description": "Very comfortable.",
+      "IsSetItem": true, 
+      "Requirements": {
+        "AllowedItemTypes": [
+          "Chest"
+        ]
+	 },  
+	  "GuaranteedEffectCount": 6
+    },
+
+
+
+
+    // Anima
+    //////////////////////////////////////////////////////////////////////////////////////////////////////////////
+	
+	
+	
+	
+    {
+      "ID": "AnimasBelt",
+      "Name": "<color=Cyan>Animas Belt</color>",
+      "Description": "As simple as can be.",
+      "IsSetItem": true, 
+      "Requirements": {
+        "AllowedItemNames" : [
+          "$mod_epicloot_assets_leatherbelt"
+        ]
+	  },  
+	  "GuaranteedEffectCount": 6
+    },
+    {
+      "ID": "AnimasChest",
+      "Name": "<color=Cyan>Animas Chest</color>",
+      "Description": "Wearing this piece will fill you of rage",
+      "IsSetItem": true, 
+      "Requirements": {
+        "AllowedItemTypes": [
+          "Chest"
+        ]
+      }, 
+	  "GuaranteedEffectCount": 6
+    },
+    {
+      "ID": "AnimasLegs",
+      "Name": "<color=Cyan>Animas Legs</color>",
+      "Description": "Blood filled boots",
+      "IsSetItem": true, 
+      "Requirements": {
+        "AllowedItemTypes": [
+          "Legs"
+        ]
+      }, 
+	  "GuaranteedEffectCount": 6
+    },
+	
+	
+	
+	
+	// Sephiroths
+    //////////////////////////////////////////////////////////////////////////////////////////////////////////////
+	
+	
+	
+	{
+      "ID": "SephirothsCape",
+      "Name": "<color=Cyan>Sephiroths Cloak</color>",
+      "Description": "",
+      "IsSetItem": true, 
+      "Requirements": {
+        "AllowedItemTypes": [
+          "Shoulder"
+        ]
+      }, 
+	  "GuaranteedEffectCount": 6
+    },
+	{
+      "ID": "SephirothsWeapon",
+      "Name": "<color=Cyan>Sephiroths Deadly Weapon</color>",
+      "Description": "",
+      "IsSetItem": true, 
+      "Requirements": {
+        "AllowedItemTypes": [ "OneHandedWeapon", "Bow", "TwoHandedWeapon" ], 
+        "AllowedSkillTypes": [ "Knives", "Bows", "Unarmed" ]
+      }, 
+	  "GuaranteedEffectCount": 6
+    },
+	{
+      "ID": "SephirothsRing",
+      "Name": "<color=Cyan>Sephiroths Ultima Ring</color>",
+      "Description": "",
+      "IsSetItem": true, 
+      "Requirements": {
+        "AllowedItemNames": [
+          "$mod_epicloot_assets_silverring"
+        ]
+      }, 
+	  "GuaranteedEffectCount": 6
+    }
+  ],
+  
+  
+  
+
+  // Legendary Sets
+  ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+  
+  
+  
+  
+  "LegendarySets": [
+  
+  
+  
+  
+    {
+      "ID": "Odin",
+      "Name": "<color=Yellow>Odins Tanky Wares</color>",
+      "LegendaryIDs": [
+        "OdinsShield",
+        "OdinsWeapon",
+        "OdinsLegs"
+      ],
+      "SetBonuses": [
+        { "Count": 2, "Effect": { "Type": "ModifyArmor", "Values": { "MinValue" : 30, "MaxValue" : 30, "Increment" : 1 } } },
+        { "Count": 2, "Effect": { "Type": "Slow", "Values": { "MinValue": 30, "MaxValue": 30, "Increment": 1 } } },
+		{ "Count": 3, "Effect": { "Type": "Undying" } }
+      ]
+     },
+    {
+      "ID": "Anima",
+      "Name": "<color=Yellow>Animas Raging Armor</color>",
+      "LegendaryIDs": [
+        "AnimasBelt",
+        "AnimasChest",
+        "AnimasLegs"
+      ],
+      "SetBonuses": [
+        { "Count": 2, "Effect": { "Type": "ModifyDamage", "Values": { "MinValue" : 25, "MaxValue" : 25, "Increment" : 1 } } },
+        { "Count": 2, "Effect": { "Type": "ModifyDamageLowHealth", "Values": { "MinValue": 25, "MaxValue": 75, "Increment": 1 } } },
+		{ "Count": 3, "Effect": { "Type": "Berserker" } }
+      ]
+     },
+	{
+      "ID": "Tsukuyomi",
+      "Name": "<color=Yellow>Loki's Devious Garbs</color>",
+      "LegendaryIDs": [
+        "TsukuyomisWeapon",
+        "TsukuyomisHelmet",
+        "TsukuyomisRing"
+      ],
+      "SetBonuses": [
+        { "Count": 2, "Effect": { "Type": "ModifyBackstab", "Values": { "MinValue" : 20, "MaxValue" : 20, "Increment" : 1 } } },
+        { "Count": 2, "Effect": { "Type": "Opportunist", "Values": { "MinValue": 20, "MaxValue": 20, "Increment": 1 } } },
+		{ "Count": 3, "Effect": { "Type": "Undying" } }
+      ]
+     },
+	{
+      "ID": "Susano",
+      "Name": "<color=Yellow>Susanos Mighty Battlegear</color>",
+      "LegendaryIDs": [
+        "SusanosWeapon",
+        "SusanosHelm",
+        "SusanosCape"
+      ],
+      "SetBonuses": [
+        { "Count": 2, "Effect": { "Type": "ModifyAttackSpeed", "Values": { "MinValue" : 30, "MaxValue" : 30, "Increment" : 1 } } },
+        { "Count": 2, "Effect": { "Type": "IncreaseStamina", "Values": { "MinValue": 30, "MaxValue": 30, "Increment": 1 } } },
+		{ "Count": 3, "Effect": { "Type": "Bulwark" } }
+      ]
+     },
+	{
+      "ID": "Bear",
+      "Name": "<color=Yellow>Mysterious Bear Carcass</color>",
+      "LegendaryIDs": [
+        "BearCape",
+        "BearChest",
+        "BearLegs"
+      ],
+      "SetBonuses": [
+        { "Count": 2, "Effect": { "Type": "IncreaseHealth", "Values": { "MinValue" : 25, "MaxValue" : 25, "Increment" : 1 } } },
+        { "Count": 2, "Effect": { "Type": "ModifyHealthRegen", "Values": { "MinValue": 25, "MaxValue": 25, "Increment": 1 } } },
+		{ "Count": 3, "Effect": { "Type": "Undying" } }
+      ]
+     },
+	{
+      "ID": "Gladiator",
+      "Name": "<color=Yellow>Gladiator's Might</color>",
+      "LegendaryIDs": [
+        "GladiatorWeapon",
+        "GladiatorTowerShield",
+        "GladiatorHelm"
+      ],
+      "SetBonuses": [
+        { "Count": 2, "Effect": { "Type": "ModifyBlockStaminaUse", "Values": { "MinValue" : 30, "MaxValue" : 30, "Increment" : 1 } } },
+        { "Count": 2, "Effect": { "Type": "ModifyBlockPower", "Values": { "MinValue": 30, "MaxValue": 30, "Increment": 1 } } },
+		{ "Count": 3, "Effect": { "Type": "Bulwark" } }
+      ]
+     },
+	{
+      "ID": "Nomad",
+      "Name": "<color=Yellow>Nomad's Peacekeeping Wear</color>",
+      "LegendaryIDs": [
+        "NomadCape",
+        "NomadChest",
+        "NomadBelt"
+      ],
+      "SetBonuses": [
+        { "Count": 2, "Effect": { "Type": "AvoidDamageTaken", "Values": { "MinValue" : 30, "MaxValue" : 30, "Increment" : 1 } } },
+        { "Count": 2, "Effect": { "Type": "ModifyMovementSpeed", "Values": { "MinValue": 30, "MaxValue": 30, "Increment": 1 } } },
+		{ "Count": 3, "Effect": { "Type": "Undying" } }
+      ]
+     },
+	{
+      "ID": "Sephiroth",
+      "Name": "<color=Yellow>Sephiroths Battlegear</color>",
+      "LegendaryIDs": [
+        "SephirothsCape",
+        "SephirothsRing",
+		"SephirothsWeapon"
+      ],
+      "SetBonuses": [
+        { "Count": 2, "Effect": { "Type": "LifeSteal", "Values": { "MinValue" : 30, "MaxValue" : 30, "Increment" : 1 } } },
+        { "Count": 2, "Effect": { "Type": "ReflectDamage", "Values": { "MinValue": 20, "MaxValue": 20, "Increment": 1 } } },
+		{ "Count": 3, "Effect": { "Type": "Berserker" } }
+      ]
+    }
+  ] 
+}

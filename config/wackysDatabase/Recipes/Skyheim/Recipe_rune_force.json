@@ -1,0 +1,14 @@
+{
+    "name": "rune_force",
+    "clone": false,
+    "clonePrefabName": "",
+    "craftingStation": "Thors Forge",
+    "minStationLevel": 1,
+    "amount": 1,
+    "disabled": false,
+    "reqs": [
+        "bonemass_drop:1:1:False",
+		"EssenceRare:5:1:False",
+        "TrollBone_TW:5:5:False"
+    ]
+}

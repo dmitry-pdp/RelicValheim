@@ -1,0 +1,14 @@
+{
+    "name": "rune_immolate",
+    "clone": false,
+    "clonePrefabName": "",
+    "craftingStation": "Thors Forge",
+    "minStationLevel": 1,
+    "amount": 1,
+    "disabled": false,
+    "reqs": [
+        "DragonTear:6:0:False",
+        "EssenceEpic:5:1:False",
+        "Obsidian:5:5:False"
+    ]
+}

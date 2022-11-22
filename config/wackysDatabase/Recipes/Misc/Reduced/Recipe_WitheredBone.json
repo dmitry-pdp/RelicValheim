@@ -1,0 +1,13 @@
+{
+    "name": "WitheredBone",
+    "clone": true,
+    "clonePrefabName": "WitheredBone",
+    "craftingStation": "Thors Forge",
+    "minStationLevel": 1,
+    "amount": 5,
+    "disabled": false,
+    "reqs": [
+        "ReducedWitheredBone:10:0:True",
+		"EssenceLegendary:1:0:True"
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "name": "AtgeirHeavymetal",
+    "clone": false,
+    "clonePrefabName": "",
+    "craftingStation": "Inscription Table",
+    "minStationLevel": 1,
+    "amount": 1,
+    "disabled": false,
+    "reqs": [
+        "HeavymetalBar:14:5:False",
+        "WorldTreeFragment:24:5:False",
+        "VenomousFang_TW:14:4:False",
+		"FreyjaEssence_TW:5:5:False"
+    ]
+}

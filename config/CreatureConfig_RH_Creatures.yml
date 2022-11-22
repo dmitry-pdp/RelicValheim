@@ -1,0 +1,106 @@
+#Mistlands
+DireWolf_DoD:
+ Mistlands:
+  damage: 0.5
+  health: 0.65
+DarkDrake_DoD:
+ Mistlands:
+  damage: 1.5
+  health: 0.55
+Vilefang_DoD:
+ Mistlands:
+  damage: 0.8
+  health: 0.8
+Wizard:
+ Mistlands:
+  damage: 0.9
+  health: 3.5
+TheNasty:
+ Mistlands:
+  damage: 1
+  health: 6
+  attack speed: 0.75
+  movement speed: 0.8
+ Meadows:
+  damage: 0.1
+  health: 0.5
+WendigoForest:
+ Mistlands:
+  damage: 1.2
+  health: 0.7
+TreeSpider:
+ Mistlands:
+  damage: 17
+  health: 12
+#DeepNorth
+IceDrake_DoD:
+ DeepNorth:
+  damage: 1.3
+  health: 0.5
+Yeti:
+ DeepNorth:
+  damage: 2
+  health: 0.7
+IceGolem_DoD:
+ DeepNorth:
+  damage: 1.3
+  health: 0.5
+Frostling_DoD:
+ DeepNorth:
+  damage: 2
+  health: 2.5
+WereWolfWhite:
+ DeepNorth:
+  damage: 1.5
+  health: 0.35
+ Meadows:
+  damage:
+     frost: 0.01
+     slash: 0.05
+     blunt: 0.05
+  health: 0.02
+Ghost_Ice_DoD:
+ DeepNorth:
+  damage: 5
+  health: 3.5
+Serpent:
+  DeepNorth:
+    damage: 2
+    health: 2
+#Other
+KrakenLD:
+    stars: 1
+NightmareDragonEV:
+    damage: 0.5
+    damage per star: 0.1
+    health: 0.5
+    stars: 1
+Eikthyr:
+  Override:
+    damage: 1.8
+##DoorDie Bosses##
+Rambore_DoD:
+    stars: 3
+Bitterstump_DoD:
+    stars: 3
+BhygshanAlt_DoD:
+    stars: 3
+Farkas_Alt_DoD:
+    stars: 3
+SkirSandburst_DoD:
+    stars: 3
+#
+WendigoSwamp:
+  damage: 0.5
+  health: 0.4
+ForestWolf_DoD:
+  damage: 0.7
+  health: 0.3
+LivingWater_DoD:
+  damage: 0.4
+  health: 0.7
+DwarfGoblinLoot:
+  movement speed: 1.6
+GreenSpider:
+ Meadows:
+  health: 2

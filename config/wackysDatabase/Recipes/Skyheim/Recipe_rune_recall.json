@@ -1,0 +1,15 @@
+{
+    "name": "rune_recall",
+    "clone": false,
+    "clonePrefabName": "",
+    "craftingStation": "Thors Forge",
+    "minStationLevel": 1,
+    "amount": 1,
+    "disabled": false,
+    "reqs": [
+		"elder_drop:1:1:False",
+        "SurtlingCore:5:0:False",
+        "EssenceRare:5:0:False",
+        "EssenceEpic:5:0:False"
+    ]
+}

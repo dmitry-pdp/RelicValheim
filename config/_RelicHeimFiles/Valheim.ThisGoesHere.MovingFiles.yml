@@ -1,0 +1,20 @@
+﻿PrintComment: ThisGoesHere is Updating & Replacing EpicLoot Configuration
+CopyFolder:
+- From: config\_RelicHeimFiles\RandyKnapp-EpicLoot/
+  To: plugins/
+PrintComment: ThisGoesHere is Moving CLLC English.yml to plugins folder
+CopyFile:
+- From: config\_RelicHeimFiles\Drop,Spawn_That\English.yml
+  To: plugins\Smoothbrain-CreatureLevelAndLootControl\English.yml
+- From: config\_RelicHeimFiles\Drop,Spawn_That\MonsterLabZ.cfg
+  To: config\MonsterLabZ.cfg
+PrintComment: ThisGoesHere is Deleting unwanted files for RelicHeim
+DeleteFolder:
+- config\wackysDatabase\Recipes\WarFare
+- config\wackysDatabase\Pieces\WarFare
+- config\wackysDatabase\Items\WarFare
+- config\_RelicHeimNew
+DeleteFile:
+- config\drop_that.character_drop.WarfareEVABossDrops.cfg
+- config\drop_that.character_drop.WarfareVanilla.cfg
+- config\Valheim.ThisGoesHere.RelicHeim_Cleanup.yml

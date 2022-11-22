@@ -1,0 +1,118 @@
+{
+  "recipes": [
+  
+  
+    {
+      "name": "Recipe_LeatherBelt",
+      "item": "LeatherBelt",
+      "craftingStation": "piece_workbench",
+      "resources": [
+        { "item": "LeatherScraps", "amount": 10 },
+        { "item": "DeerHide", "amount": 10 }
+      ]
+    },
+    {
+      "name": "Recipe_SilverRing",
+      "item": "SilverRing",
+      "craftingStation": "forge",
+      "resources": [
+		{ "item": "Silver", "amount": 4 },
+        { "item": "Tin", "amount": 6 }
+      ]
+    },
+    {
+      "name": "Recipe_GoldRubyRing",
+      "item": "GoldRubyRing",
+      "craftingStation": "forge",
+      "resources": [
+        { "item": "Bronze", "amount": 10 },
+        { "item": "Ruby", "amount": 1 }
+      ]
+    },
+	
+	
+    // Conversion Recipes	
+	{
+      "name": "Recipe_LegendaryRunestoneToRunestone_Conversion",
+      "item": "RunestoneEpic",
+      "amount": 1,
+      "craftingStation": "piece_thorsforge",
+      "resources": [
+        { "item": "RunestoneLegendary", "amount": 1 },
+		{ "item": "DustMagic", "amount": 5  }
+      ]
+    },
+	{
+      "name": "Recipe_EpicRunestoneToRunestone_Conversion",
+      "item": "RunestoneRare",
+      "amount": 1,
+      "craftingStation": "piece_thorsforge",
+      "resources": [
+        { "item": "RunestoneEpic", "amount": 1 },
+		{ "item": "DustMagic", "amount": 5  }
+      ]
+    },
+    // Dust Upgrades
+	{
+      "name": "Recipe_DustRareUpgrade",
+      "item": "DustRare",
+      "amount": 1,
+      "craftingStation": "piece_thorsforge",
+      "resources": [
+        { "item": "DustMagic", "amount": 3  },
+		{ "item": "EssenceRare", "amount": 1  }
+      ]
+    },
+    {
+      "name": "Recipe_DustEpicUpgrade",
+      "item": "DustEpic",
+      "amount": 1,
+      "craftingStation": "piece_thorsforge",
+      "resources": [
+		{ "item": "DustMagic", "amount": 4  },
+        { "item": "EssenceEpic",    "amount": 1 }
+      ]
+    },
+    {
+      "name": "Recipe_DustLegendaryUpgrade",
+      "item": "DustLegendary",
+      "amount": 1,
+      "craftingStation": "piece_thorsforge",
+      "resources": [
+		{ "item": "DustMagic", "amount": 5  },
+        { "item": "EssenceLegendary",    "amount": 1 }
+      ]
+    },
+    // Reagent Upgrades	
+	{
+      "name": "Recipe_ReagentRareUpgrade",
+      "item": "ReagentRare",
+      "amount": 5,
+      "craftingStation": "piece_thorsforge",
+      "resources": [
+        { "item": "ReagentMagic", "amount": 5 },
+        { "item": "EssenceRare", "amount": 1 }		
+      ]
+    },
+    {
+      "name": "Recipe_ReagentEpicUpgrade",
+      "item": "ReagentEpic",
+      "amount": 4,
+      "craftingStation": "piece_thorsforge",
+      "resources": [
+        { "item": "ReagentRare", "amount": 4 },
+        { "item": "EssenceEpic", "amount": 1 }		
+      ]
+    },
+    {
+      "name": "Recipe_ReagentLegendaryUpgrade",
+      "item": "ReagentLegendary",
+      "amount": 3,
+      "craftingStation": "piece_thorsforge",
+      "resources": [
+        { "item": "ReagentEpic", "amount": 3 },
+        { "item": "EssenceLegendary", "amount": 1 }
+      ]
+    }
+  ]
+}

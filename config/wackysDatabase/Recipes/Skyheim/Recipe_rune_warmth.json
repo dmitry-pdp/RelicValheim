@@ -1,0 +1,14 @@
+{
+    "name": "rune_warmth",
+    "clone": false,
+    "clonePrefabName": "",
+    "craftingStation": "Thors Forge",
+    "minStationLevel": 1,
+    "amount": 1,
+    "disabled": false,
+    "reqs": [
+        "elder_drop:1:1:False",
+        "EssenceRare:5:5:False",
+        "Coal:10:10:False"
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "name": "rune_light",
+    "clone": false,
+    "clonePrefabName": "",
+    "craftingStation": "Inscription Table",
+    "minStationLevel": 1,
+    "amount": 1,
+    "disabled": true,
+    "reqs": [
+        "HardAntler:1:1:False",
+        "Amber:4:2:False"
+    ]
+}

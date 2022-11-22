@@ -1,0 +1,15 @@
+{
+    "name": "ShieldHeavymetalBuckler_TW",
+    "clone": false,
+    "clonePrefabName": "",
+    "craftingStation": "Inscription Table",
+    "minStationLevel": 1,
+    "amount": 1,
+    "disabled": false,
+    "reqs": [
+        "HeavymetalBar:20:10:True",
+        "WorldTreeFragment:20:10:True",
+        "SvartalfrFabric_TW:12:6:True",
+        "DarkCrystal_TW:12:6:True"
+    ]
+}

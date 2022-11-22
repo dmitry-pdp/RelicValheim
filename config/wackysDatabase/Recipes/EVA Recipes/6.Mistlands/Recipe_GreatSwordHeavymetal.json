@@ -1,0 +1,15 @@
+{
+    "name": "GreatSwordHeavymetal",
+    "clone": false,
+    "clonePrefabName": "",
+    "craftingStation": "Inscription Table",
+    "minStationLevel": 1,
+    "amount": 1,
+    "disabled": false,
+    "reqs": [
+        "HeavymetalBar:30:10:False",
+        "WorldTreeFragment:30:15:False",
+        "VenomousFang_TW:15:4:False",
+		"SvartalfrArtifact_TW:5:2:False"
+    ]
+}

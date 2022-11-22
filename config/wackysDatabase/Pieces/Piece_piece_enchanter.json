@@ -1,0 +1,20 @@
+{
+    "name": "piece_enchanter",
+    "m_name": "$mod_epicloot_assets_enchanter",
+    "m_description": "$mod_epicloot_assets_enchanter_introduce\n",
+    "clone": false,
+    "clonePrefabName": "",
+    "cloneMaterial": "",
+    "craftingStation": "$piece_forge",
+    "piecehammer": "Hammer",
+    "piecehammerCategory": "Crafting",
+    "minStationLevel": 1,
+    "amount": 1,
+    "disabled": false,
+    "adminonly": false,
+    "reqs": [
+        "Stone:10:1:True",
+        "SurtlingCore:3:1:True",
+        "Copper:3:1:True"
+    ]
+}

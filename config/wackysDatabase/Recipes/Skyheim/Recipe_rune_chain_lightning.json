@@ -1,0 +1,14 @@
+{
+    "name": "rune_chain_lightning",
+    "clone": false,
+    "clonePrefabName": "",
+    "craftingStation": "Thors Forge",
+    "minStationLevel": 1,
+    "amount": 1,
+    "disabled": false,
+    "reqs": [
+        "goblin_drop:1:0:False",
+        "EssenceLegendary:5:1:False",
+		"Tar:5:5:False"
+    ]
+}

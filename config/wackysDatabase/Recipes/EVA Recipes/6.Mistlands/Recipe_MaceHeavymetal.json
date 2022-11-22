@@ -1,0 +1,15 @@
+{
+    "name": "MaceHeavymetal",
+    "clone": false,
+    "clonePrefabName": "",
+    "craftingStation": "Inscription Table",
+    "minStationLevel": 1,
+    "amount": 1,
+    "disabled": false,
+    "reqs": [
+        "HeavymetalBar:10:4:False",
+        "WorldTreeFragment:20:5:False",
+        "VenomousFang_TW:10:4:False",
+		"FreyjaEssence_TW:5:5:False"
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "name": "KnifeHeavymetal",
+    "clone": false,
+    "clonePrefabName": "",
+    "craftingStation": "Inscription Table",
+    "minStationLevel": 1,
+    "amount": 1,
+    "disabled": false,
+    "reqs": [
+        "HeavymetalBar:8:4:False",
+        "WorldTreeFragment:12:3:False",
+        "VenomousFang_TW:3:2:False",
+		"FreyjaEssence_TW:5:5:False"
+    ]
+}

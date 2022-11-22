@@ -1,0 +1,15 @@
+{
+    "name": "sm_base_teleport",
+    "clone": false,
+    "clonePrefabName": "",
+    "craftingStation": "$piece_cauldron",
+    "minStationLevel": 1,
+    "amount": 1,
+    "disabled": true,
+    "reqs": [
+        "Honey:20:0:False",
+        "GreydwarfEye:10:0:False",
+        "SurtlingCore:10:0:False",
+        "Chitin:5:0:False"
+    ]
+}
